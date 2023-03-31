@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    color: #08e5ff;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header h4 {
+    text-align: center;
+}
+
+.contact-form {
+    box-shadow: 0 0 4px 0 rgba( 0, 0, 0, 0.5 );
+    /* box-shadow: 0 0 4px rgb(255, 165, 0); */
+    margin: 50px auto;
+    width: 350px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    background: #efefef;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.contact-form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contact-form textarea {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    height: 80px;
+}
+
+.submit-btn {
+    cursor: pointer;
+    width: 150px !important;
+    margin-left: 18px !important;
+}
+
+.status {
+    font-size: 15px;
+    color: green;
+    padding: 15px;
+}
+
+/* Captcha */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #232331;
+    font-family: 'Roboto', sans-serif;
+}
+
+#captchaBackground {
+    height: 220px;
+    width: 340px;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#captchaHeading {
+    color: white;
+}
+
+#captcha {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}

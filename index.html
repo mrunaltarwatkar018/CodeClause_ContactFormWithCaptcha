@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Form - CodeClause </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+
+        <h1>
+            Contact From for CodeClause
+        </h1>
+
+        <h4> <i> - designed By Mrunal Tarwatkar </i> </h4>
+
+    </div>
+
+    <div class="contact-form">
+
+        <h2> Contact Form  </h2>
+
+        <form action="" method="post">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="name" placeholder="Phone No" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="college" name="college" placeholder="Enter Your College Name" required>
+            <input type="branch" name="branch" placeholder="Enter Your Branch" required>
+            <textarea name="message" placeholder="Enter Your Message" required></textarea>
+
+            <div class="center">
+
+                <div id="captchaBackground">
+
+                    <canvas id="captcha">captcha text</canvas>
+
+                    <input id="textBox" type="text" name="text">
+
+                        <div id="buttons">
+
+                            <!-- <input id="submitButton" type="submit"> -->
+                            <button id="refreshButton" type="submit">Refresh</button>
+
+                        </div>
+
+                        <span id="output"></span>
+
+                </div>
+
+            </div>
+
+            <input type="submit" name="submit" value="Send Message" class="submit-btn" required>
+            
+        </form>
+
+        <div class="status">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
